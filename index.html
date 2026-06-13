@@ -1,101 +1,83 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FastFood</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>FASTFOOD</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Header -->
     <header>
-      <div class="logo">FASTFOOD</div>
+      <div class="logo">🍔 FASTFOOD</div>
 
       <nav>
-        <ul>
-          <li>Trang chủ</li>
-          <li>Thực đơn</li>
-          <li>Khuyến mãi</li>
-          <li>Dịch vụ</li>
-          <li>Liên hệ</li>
-        </ul>
+        <a href="#">TRANG CHỦ</a>
+        <a href="#">THỰC ĐƠN</a>
+        <a href="#">KHUYẾN MÃI</a>
+        <a href="#">DỊCH VỤ</a>
+        <a href="#">LIÊN HỆ</a>
       </nav>
 
-      <div class="header-right">
-        <button>Đặt hàng ngay</button>
-      </div>
+      <button class="order-btn">ĐẶT HÀNG NGAY</button>
     </header>
-
-    <!-- Banner -->
-    <section id="banner">
-      <div class="banner-text">
+    <section class="hero">
+      <div class="hero-text">
         <h1>FAST FOOD</h1>
-        <h2>Ngon mê ly - Ship tận nhà</h2>
-        <p>Thưởng thức hương vị đậm đà...</p>
-        <button>Đặt hàng ngay</button>
+        <h2>NGON MÊ LY - SHIP TẬN NHÀ</h2>
+
+        <p>
+          Thưởng thức hương vị đậm đà của những món ăn nhanh được yêu thích
+          nhất.
+        </p>
+
+        <button>ĐẶT HÀNG NGAY</button>
       </div>
 
-      <div class="banner-image">
-        <img src="burger.png" />
+      <div class="hero-image">
+        <img src="images/banner.png" />
       </div>
     </section>
+    <section class="menu">
+      <h2>🍔 THỰC ĐƠN NỔI BẬT</h2>
 
-    <!-- Thực đơn nổi bật -->
-    <section id="menu">
-      <h2>Thực đơn nổi bật</h2>
-
-      <div class="product-list">
-        <div class="product">
-          <img src="burger.png" />
+      <div class="products">
+        <div class="card">
+          <img src="images/burger.png" />
           <h3>Hamburger Bò</h3>
           <p>50.000đ</p>
           <button>Đặt hàng</button>
         </div>
 
-        <div class="product">
-          <img src="chicken.png" />
+        <div class="card">
+          <img src="images/chicken.png" />
           <h3>Gà Rán Giòn Cay</h3>
           <p>45.000đ</p>
           <button>Đặt hàng</button>
         </div>
 
-        <div class="product">
-          <img src="fries.png" />
+        <div class="card">
+          <img src="images/fries.png" />
           <h3>Khoai Tây Chiên</h3>
           <p>25.000đ</p>
           <button>Đặt hàng</button>
         </div>
 
-        <div class="product">
-          <img src="drink.png" />
+        <div class="card">
+          <img src="images/drink.png" />
           <h3>Nước Ngọt</h3>
           <p>15.000đ</p>
           <button>Đặt hàng</button>
         </div>
       </div>
     </section>
-
-    <!-- Khuyến mãi -->
-    <section id="promotion">
-      <div class="promo-box">Combo tiết kiệm từ 99.000đ</div>
-
-      <div class="promo-box">Giao hàng siêu tốc</div>
-    </section>
-
-    <!-- Ưu điểm -->
-    <section id="features">
-      <div class="feature">Giao hàng nhanh</div>
-
-      <div class="feature">Nguyên liệu tươi ngon</div>
-
-      <div class="feature">Thanh toán dễ dàng</div>
-
-      <div class="feature">Hỗ trợ 24/7</div>
-    </section>
-
-    <!-- Footer -->
     <footer>
-      <p>© 2025 FastFood</p>
+      <div>🚚 Giao hàng nhanh</div>
+
+      <div>⭐ Nguyên liệu tươi ngon</div>
+
+      <div>💳 Thanh toán dễ dàng</div>
+
+      <div>📞 Hỗ trợ 24/7</div>
     </footer>
   </body>
 </html>
