@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+#banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+}
+
+.product {
+  width: 250px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+#features {
+  display: flex;
+  justify-content: space-around;
+}
